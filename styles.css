@@ -16,7 +16,7 @@
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: #1f1f1f;
   margin: 15% auto; /* 设置边距使模态框居中显示 */
   padding: 20px;
   border: 1px solid #888;
@@ -61,7 +61,7 @@ body {
 
 #nameInput {
   font-family: "Sofia Pro Black";
-  margin-bottom: 10px;
+  margin-bottom: 100px;
   width: 100%;
   max-width: 300px;
   background-color: #1f1f1f;
@@ -125,7 +125,6 @@ body {
   display: inline-block;
   font-size: 16px;
   margin-top: 10px;
-  margin-bottom: 30px;
   cursor: pointer;
   border: 1px solid #ccc;
   transition: background-color 0.3s;
@@ -143,11 +142,10 @@ body {
   color: c0caf5;
   text-align: center;
   padding: 20px;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 999; 
 }
 
 .footer p {
@@ -168,7 +166,6 @@ body {
 @media only screen and (max-width: 600px) {
   .container {
     padding: 0 20px;
-    padding-bottom: 70px; 
   }
 
   .footer {
